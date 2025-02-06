@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="text-white bg-zinc-900">
+    <!-- Mobile -->
+    <div class="absolute inset-0 -z-10"><img src="../public/images/bg.jpg" alt="" class="size-full object-"></div>
+    <div class="container mx-auto flex justify-center items-center h-screen">
+        <div class="border border-zinc-800 p-8 space-y-6 bg-zinc-800/80 rounded-xl max-w-sm w-full shadow-md">
+            <div class="space-y-6">
+                <div class="flex justify-center">
+                    <img src="../public/images/Logo (1).png" alt="Logo" class="h-8">
+                </div>
+                <div>
+                    <h1 class= "text-center font-semibold text-2xl">Daftar</h1>
+                    <p class= "text-center">Selamat Datang!</p>
+                </div>
+            </div>
+
+            <form action="" class="space-y-6">
+                <div class="grid gap-2">
+                    <label for="" class= "font-medium">Username</label>
+                    <input type="text"
+                        class="bg-transparent border border-zinc-600 rounded-xl px-4 py-2 max-w-sm w-full placeholder:text-zinc-400"
+                        placeholder="Masukan Username">
+                </div>
+                
+                <div class="grid gap-2">
+                    <label for="" class= "font-medium">Masukan Kata Sandi</label>
+                    <div class="relative">
+                        <input type="password" class="bg-transparent border border-zinc-600 rounded-xl px-4 py-2 w-full"
+                        placeholder="Masukan Password">
+                        <button class="absolute right-0 top-1 p-2">
+                            <img src="../public/assets/EyeSolid.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="grid gap-2">
+                    <label for="" class= "font-medium">Konfirmasi Kata Sandi</label>
+                    <div class="relative">
+                        <input type="password" class="bg-transparent border border-zinc-600 rounded-xl px-4 py-2 w-full"
+                        placeholder="Masukan Password">
+                        <button class="absolute right-0 top-1 p-2">
+                            <img src="../public/assets/EyeSolid.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                
+
+                <div class="flex justify-start gap-2 text-sm">
+                    <a href="#" class= "text-zinc-400 hover:underline">Sudah punya akun?</a>
+                    <a href="signIn.html" class= hover:underline">Masuk</a>
+                </div>
+                <button type="submit"
+                    class="w-full border border-zinc-500 bg-zinc-600 hover:bg-zinc-700 py-2 rounded-full font-medium transition-colors">
+                    Daftar
+                </button>
+            </form>
+            <div class="flex items-center my-4">
+                <div class="flex-grow border-t border-gray-700"></div>
+                <span class="px-4 text-center text-sm">Atau</span>
+                <div class="flex-grow border-t border-gray-700"></div>
+            </div>
+
+            <button type="button"
+                class="w-full flex items-center justify-center bg-transparent py-2 font-medium border border-gray-600 rounded-full hover:bg-zinc-700 transition-colors">
+                <img src="https://www.google.com/favicon.ico" alt="Google" class="w-5 h-5 mr-2">Daftar dengan Google
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
